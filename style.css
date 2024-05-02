@@ -1,0 +1,245 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between; /* Align items to the sides */
+    align-items: center; /* Vertically center items */
+    background-color: blue; /* Set the background color */
+    padding: 10px 10px; /* Add padding for spacing */
+}
+
+.logo img {
+    width: 50px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+
+}
+header button img {
+    width: 20px;
+    height: 20px;
+}
+
+header p {
+    
+    color: white;
+}   
+
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; /* Remove default padding */
+}
+
+header li {
+    display: inline-block;
+    position: relative; /* lowercase 'position' */
+}
+
+header ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+header ul li a img {
+    
+    width: 50px; /* Set the desired width */
+    height: auto;
+}
+
+.Main {
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Use percentages or other relative units for responsiveness */
+    height: 1000px; /* Adjust height as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.Gallery {
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover; /* Cover the entire element with the background image */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Use percentages or other relative units for responsiveness */
+    height: 2000px; /* Adjust height as needed */
+    margin: 0;
+    padding: 0;
+}
+.Gallery img {
+    width: 100%; /* Use percentages or other relative units for responsiveness */
+    height: 500px;
+}
+.Ordernow {
+    background-color: white ;
+    width: 90%; /* Use percentages or other relative units for responsiveness */
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.Ordernow img {
+      width: 100%;
+      height: 100%;
+}
+.Ordernow button {
+    background-color: rgba(0, 119, 255, 0.918);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.Sign {
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 350px;
+    margin-right: auto;
+    width: 650px;
+    height: 500px;
+    background-color: #88888894;
+}
+
+.C1, .C2, .C3, .C4 {
+    display: inline-block;
+    background-color: rgba(0, 195, 255, 0.199);
+    width: 200px;
+    height: 220px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+.C5, .C6, .C7, .C8 {
+    display: inline-block;
+    background-color:  rgba(0, 195, 255, 0.199);
+    width: 200px;
+    height: 220px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: auto;
+    margin-right: auto;
+    border-radius: 10%;
+}
+
+.C1 img, .C2 img, .C3 img, .C4 img, .C5 img, .C6 img, .C7 img, .C8 img {
+    display: block;
+    width: 95%;
+    height: 130px;
+    border-radius: 6%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+}
+
+.C1 p, .C2 p, .C3 p, .C4 p, .C5 p, .C6 p, .C7 p, .C8 p {
+    display: block;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.C1 button, .C2 button, .C3 button, .C4 button, .C5 button, .C6 button, .C7 button, .C8 button {
+    border: 2px solid white;
+    background-color: rgba(0, 81, 255, 0.897);
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+.form-row {
+    margin-top: 20px;
+    margin-left: 20px;
+   
+}
+
+.form-row label {
+    display: block;
+}
+
+.form-row input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+footer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    background-color: blue; /* Example background color */
+}
+footer ul {
+    list-style: none;
+    background-color: blue;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+footer ul li {
+    display: inline-block;
+    position: relative; /* lowercase 'position' */
+}
+
+footer ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer ul li img {
+    
+    width: 30px;
+    height: 30px;
+}
+
+/* CSS for modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  .modal button {
+         background-color: rgb(0, 255, 255);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

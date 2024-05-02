@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotorTech</title>
+    <link rel="icon" href="C:\Users\user\Downloads\logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body background="C:\Users\user\Downloads\Background.jpg">
+    <header>
+        <div class="logo">
+            <img src="C:\Users\user\Downloads\logo.jpg" alt="Logo">
+        </div>
+        <p>MotorTech</p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Signin.html">Sign In</a></li>
+            
+        </ul>
+        <ul class="cart-items"></ul>
+        <button id="cart-icon" onclick="showCart()"><img src="C:\Users\user\Downloads\cart.png" alt="Cart"></button>
+        
+    
+    </header>
+    
+    <div class="Main" >
+        <div class="Ordernow">
+            <img src="C:\Users\user\Downloads\PICPAGE.jpg">
+            <ul>
+                <li><a href="Signin.html"><button>Apply Now</button></a></li>
+        </ul>
+        </div>
+        <div class="product C1" data-name="Yamaha Mio Fazzio" data-price="92000">
+            <img src="C:\Users\user\Downloads\FAZZIO.jpg">
+            <p>Yamaha Mio Fazzio</p>
+            <p>₱ 92,000</p>           
+            <button class="add-to-cart" onclick="addToCart('Yamaha Mio Fazzio ₱ 92,000')">+Add</button>
+        </div>
+        <div class="C2">
+            <img src="C:\Users\user\Downloads\M3.jpg">
+            <p>Yamaha Mio I 125</p>
+            <p>₱ 73,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha Mio I 125 ₱ 73,000')">+Add</button>
+        </div>
+        <div class="C3">
+            <img src="C:\Users\user\Downloads\AEROX.jpg">
+            <p>Yamaha Mio Aerox</p>
+            <p>₱ 125,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha Mio Aerox ₱ 125,000')">+Add</button>
+        </div>
+        <div class="C4">
+            <img src="C:\Users\user\Downloads\NMAX.jpg">
+            <p>Yamaha Mio NMAX</p>
+            <p>₱ 149,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha Mio NMAX ₱ 149,000')">+Add</button>
+        </div>
+        <div class="C5">
+            <img src="C:\Users\user\Downloads\R15.jpg">
+            <p>Yamaha R15</p>
+            <p>₱ 164,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha R15 ₱ 164,000')">+Add</button>
+        </div>
+        <div class="C6">
+            <img src="C:\Users\user\Downloads\R3.jpg">
+            <p>Yamaha R3</p>
+            <p>₱ 259,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha R3 ₱ 259,000')">+Add</button>
+        </div>
+        <div class="C7">
+            <img src="C:\Users\user\Downloads\R6.jpg">
+            <p>Yamaha R6</p>
+            <p>₱ 795,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha R6 ₱ 795,000')">+Add</button>
+        </div>
+        <div class="C8">
+            <img src="C:\Users\user\Downloads\R1.jpg">
+            <p>Yamaha R1</p>
+            <p>₱ 1,099,000</p>
+            <button class="add-to-cart" onclick="addToCart('Yamaha R1 ₱ 1,099,000')">+Add</button>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="TermCon.html">Terms And Conditions</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Stay Connected</a></li>
+            <li><a href="Facebook.com"><img src="C:\Users\user\Downloads\FBlogo.png"></a></li>
+            <li><a href="instagram.com"><img src="C:\Users\user\Downloads\inslogo.png"></a></li>
+        </ul>
+    </footer>
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <p id="modal-content"></p>
+          <button id="place-order" onclick="placeOrder()">Place Order</button>
+          <button id="cancel-order" onclick="cancelOrder()">Cancel Order</button>
+        </div>
+      </div>
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
